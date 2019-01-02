@@ -20,6 +20,9 @@ public class HomeController {
 		System.out.println("hongData>>>>>>" + hongData);
 		HomeDTO dtoData = homeService.selectHomeTimeInfo("2");
 		System.out.println(">>>>>dtoData>>>>>" + dtoData);
+		
+		System.out.println(">>>>GIT 수정 테스트>>>>>");
+		
 		return "hello World";
 	}
 }
